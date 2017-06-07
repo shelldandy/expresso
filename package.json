@@ -6,6 +6,9 @@
   "repository": "https://github.com/mike3run/expresso.git",
   "author": "Miguel Palau <mpalauzarza@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon lib/index.js --exec babel-node"
+  },
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
