@@ -1,0 +1,14 @@
+{
+  "name": "expresso",
+  "version": "1.0.0",
+  "description": "express with babel",
+  "main": "lib/index.js",
+  "repository": "https://github.com/mike3run/expresso.git",
+  "author": "Miguel Palau <mpalauzarza@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1"
+  }
+}
