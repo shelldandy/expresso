@@ -7,7 +7,8 @@
   "author": "Miguel Palau <mpalauzarza@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon lib/index.js --exec babel-node"
+    "start": "nodemon lib/index.js --exec babel-node",
+    "build": "babel lib -d dist"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
